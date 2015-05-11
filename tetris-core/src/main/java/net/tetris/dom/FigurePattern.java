@@ -7,7 +7,6 @@ public class FigurePattern {
     private int centerY;
     private String present = "Present";
     private int nullzero;
-	private String hello = "Hello";
 	private int scores = 0;
 
     public FigurePattern(int centerX, int centerY, String... rows) {
