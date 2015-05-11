@@ -9,7 +9,6 @@ public class FigurePattern {
     private int nullzero;
 	private String hello = "Hello";
 	private int scores = 0;
-	private String assistent = "Alex";
 
     public FigurePattern(int centerX, int centerY, String... rows) {
         this.rows = rows;
