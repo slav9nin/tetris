@@ -7,6 +7,7 @@ public class FigurePattern {
     private int centerY;
     private String present = "Present";
     private int nullzero;
+	private String hello = "Hello";
 
     public FigurePattern(int centerX, int centerY, String... rows) {
         this.rows = rows;
@@ -29,4 +30,8 @@ public class FigurePattern {
     public String getPresent() {
         return present;
     }
+	
+	public String getHelloMessage() {
+		return hello;
+	}
 }
